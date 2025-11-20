@@ -18,7 +18,12 @@ Simple interface designed for new learners
 
 Screenshots:
 <img width="1847" height="798" alt="image" src="https://github.com/user-attachments/assets/59e1f986-9ae8-4983-a73d-cdfeb5789a9c" />
+<img width="1792" height="492" alt="image" src="https://github.com/user-attachments/assets/59056d8d-24d9-4295-9f1c-0ed47023eeb3" />
+<img width="1849" height="765" alt="image" src="https://github.com/user-attachments/assets/198417d6-2947-4ff8-812a-ef6271fdd37f" />
+<img width="1825" height="327" alt="image" src="https://github.com/user-attachments/assets/e3164b77-82aa-46c2-82b9-9c14b716be15" />
 
+Link:
+https://partyrock.aws/u/rgyasini/jRk7tAr09/CTFforge%253A-Your-Cybersecurity-Challenge-Companion 
 
 What I learned:
 Fundamentals of CTF platforms and categories
