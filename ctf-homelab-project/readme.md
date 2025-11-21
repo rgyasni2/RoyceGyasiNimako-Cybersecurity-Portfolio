@@ -36,7 +36,7 @@ What I learned:
 
    How to design an AI-driven learning app
 
-How I built it:
+How I built it:                                
 Designed the app flow and decided which inputs that the AI needed to collect
 
 Created a prompt of the Idea to the AI chatbot
