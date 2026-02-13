@@ -12,6 +12,3 @@ Attaching an IAM Role to EC2: After launching the instance I  went to IAM Roles 
 Setting up CloudTrail: After I went to Cloud Trail to capture any AWS API traffic that might happen. I kept management events, read, write permissions active. 
 <img width="1847" height="291" alt="image" src="https://github.com/user-attachments/assets/536598c6-df19-42fe-9593-7425568f7c22" />
 <img width="992" height="294" alt="image" src="https://github.com/user-attachments/assets/d562bb6a-af63-4978-b744-1c9f75a0ab2e" />
-
-
-Setting up GuardDuty: I then set up Guard Duty 
