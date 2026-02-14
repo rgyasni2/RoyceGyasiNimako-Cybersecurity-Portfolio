@@ -24,7 +24,7 @@ Future Improvements: For my first lab I made an IAM user with AdministratorAcces
 
 What I learned: 
 1. A big take away that I learned was that the principle of least privilege does matter a lot. I accidentally made and deleted a lot of instances (because I am new) but if everyone in the company was able to mess around with every tool available it would be so dangerous because they could either not know what they are doing and mess something up or accidentally give information away on accident.
-2. Another big thing is reducing attack surface, the simple task of making sure that you are not attaching your Elastic IP is super imortant because if an attacker attacks that instance and gets that IP they could do a lot more than if they were just closed off on that specific instance.
+2. Another big thing is reducing attack surface, the simple task of making sure that you are not attaching your Elastic IP is super imortant because if an attacker attacks that instance its important that they cannot open ports, attach IAM permissions, etc. 
 3. Cloud Trail is a cool tool that I can imagine that is utilized a great deal as it can watch for any type of traffic that you configure it to make monitoring your servers even easier. 
 
 
