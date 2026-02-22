@@ -1,4 +1,9 @@
-Overview: This is an expansion of the first EC2-SECURITY-LAB. In this project I will be including a risk regsiter model, a threat model section, and a Blast radius analysis. I will also be making a new IAM user that has the least privilege policy in mind. 
+Overview: This is an expansion of the first EC2-SECURITY-LAB. In this project I will be including a risk regsiter model, a threat model section, and a clearer IAM least-privilege plan. I will also be making a new IAM user that has the least privilege policy in mind. 
 
+Threat Model:
+Initial access: exposed SSH / weak exposure controls
+Privilege risk: overprivileged IAM user compromise
+Visibility gap: no CloudTrail limits investigations
 
-
+IAM Least Privilege Plan:
+Since that the user has access to every tool it would be wise to 
