@@ -1,6 +1,4 @@
-E2 Security Lab
 
-Overview: For this lab I am going to incorrectly configure an EC2 instance. This instance will only allow traffic from my IP and SSH. I will first walk through the first iteration of the instance. Realize that the security controls are not enough then attaching an IAM role to the Instance and setting up a necessary cloud trail. After I am going to simulate an attack and then detect the attack with Cloud Trail. Finally I will remove SSH using SSM and go over what I learned. 
 
 Setting up the EC2 Instance: As I was setting up the EC2 instance I intentionally left everything default except switching traffic from anywhere to just my IP and leaving SSH on. 
 <img width="1209" height="644" alt="image" src="https://github.com/user-attachments/assets/b217fb78-af6c-421c-8ce5-e8e744b2b204" />
@@ -19,16 +17,5 @@ Checking if things are working as intended: I checked the resources inside of th
 SSM Session Manager: Now that I know that traffic is being captured I decided to remove SSH entirely. I first launched a session using Systems Manager, then went back to my instance and removed SSH from the inbound rules. Then I went to networking to ensure that there were no elastic IPs being published. 
 <img width="1911" height="295" alt="image" src="https://github.com/user-attachments/assets/82ddaf51-a089-4ef0-b8db-8aa20729e66b" />
 <img width="1587" height="242" alt="image" src="https://github.com/user-attachments/assets/bb28cd12-1082-4d34-99be-1ef40d7b2790" />
-
-
-What I learned: 
-1. A big take away that I learned was that the principle of least privilege does matter a lot. I accidentally made and deleted a lot of instances (because I am new) but if everyone in the company was able to mess around with every tool available it would be so dangerous because they could either not know what they are doing and mess something up or accidentally give information away on accident.
-2. Another big thing is reducing the attack surface, the simple task of making sure that you are not attaching your Elastic IP is super important because if an attacker attacks that instance its important that they cannot open ports, attach IAM permissions, etc. 
-3. Cloud Trail is a cool tool that I can imagine that is utilized a great deal as it can watch for any type of traffic that you configure to make monitoring your servers even easier. 
-
-
-Future Improvements: Instead of using an IAM account with AdministratorAccess, try to practice the principle of least privilege at all levels. 
-
-
 
 
