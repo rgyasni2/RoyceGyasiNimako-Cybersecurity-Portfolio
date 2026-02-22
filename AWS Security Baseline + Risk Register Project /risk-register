@@ -1,8 +1,3 @@
-| ID   | Finding                                     | Asset                | Risk                                             | Likelihood | Impact | Severity | Recommendation                                        | Status |
-| ---- | ------------------------------------------- | -------------------- | ------------------------------------------------ | ---------- | ------ | -------- | ----------------------------------------------------- | ------ |
-| F-01 | SSH open to internet (`0.0.0.0/0`)          | EC2 / Security Group | Increases attack surface and brute-force risk    | High       | Medium | High     | Restrict SSH to trusted IP or remove SSH and use SSM  | Open   |
-| F-02 | No SSM role attached to EC2                 | EC2 / IAM Role       | Requires reliance on SSH/key-based access        | Medium     | Medium | Medium   | Attach EC2 role with `AmazonSSMManagedInstanceCore`   | Open   |
-| F-03 | IAM user has AdministratorAccess            | IAM User             | High blast radius if account is compromised      | High       | High   | Critical | Replace with least-privilege policy and MFA           | Open   |
-| F-04 | CloudTrail not enabled                      | AWS Account          | Reduced audit visibility and forensic capability | Medium     | High   | High     | Enable multi-region CloudTrail with management events | Open   |
-| F-05 | S3 public access settings not fully blocked | S3 Bucket            | Risk of accidental exposure                      | Medium     | High   | High     | Enable Block Public Access and review bucket policy   | Open   |
-
+| ID     | Findings                                    | Assets               | Risk                                             | Likelihood | Impact | Severity | Recommendation                                        | Status |
+| ------ | ------------------------------------------- | -------------------- | ------------------------------------------------ | ---------- | ------ | -------- | ----------------------------------------------------- | ------ |
+| 'F-01' | SSH open to internet (`0.0.0.0/0`)          | EC2 / Security Group | Increases attack surface and brute-force risk    | High       | Medium | High     | Restrict SSH to trusted IP or remove SSH and use SSM  | Open   |
