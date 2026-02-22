@@ -1,5 +1,3 @@
-| ID   | Finding                            | Asset                | Severity | Status                    |
-| ---- | ---------------------------------- | -------------------- | -------- | ------------------------- |
-| F-01 | SSH open to internet (`0.0.0.0/0`) | EC2 / Security Group | High     | Open                      |
-| F-02 | No SSM role attached               | EC2 / IAM Role       | Medium   | Open                      |
-| F-03 | IAM user has AdministratorAccess   | IAM User             | Critical | Accepted (Lab Constraint) |
+| A | B |
+|---|---|
+| 1 | 2 |
