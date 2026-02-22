@@ -2,7 +2,9 @@ This is an expansion of the first EC2-SECURITY-LAB. In this project I will be in
 
 EC2-Security-Lab
 
-Overview: For this lab I am going to incorrectly configure an EC2 instance. This instance will only allow traffic from my IP and SSH. I will first walk through the first iteration of the instance. Realize that the security controls are not enough then attaching an IAM role to the Instance and setting up a necessary cloud trail. After I am going to simulate an attack and then detect the attack with Cloud Trail. Finally I will remove SSH using SSM and go over what I learned. 
+Overview: For this lab I am going to incorrectly configure an EC2 instance. This instance will only allow traffic from my IP and SSH. I will first walk through the first iteration of the instance. 
+Realize that the security controls are not enough then attaching an IAM role to the Instance and setting up a necessary cloud trail. 
+After I am going to simulate an attack and then detect the attack with Cloud Trail. Finally I will remove SSH using SSM and go over what I learned. 
 
 Setting up the EC2 Instance: As I was setting up the EC2 instance I intentionally left everything default except switching traffic from anywhere to just my IP and leaving SSH on. 
 
@@ -14,10 +16,12 @@ Setting up CloudTrail: After I went to Cloud Trail to capture any AWS API traffi
 
 Checking if things are working as intended: I checked the resources inside of the instance to see if the Cloud Trail would catch it and it did.
 
-SSM Session Manager: Now that I know that traffic is being captured I decided to remove SSH entirely. I first launched a session using Systems Manager, then went back to my instance and removed SSH from the inbound rules. Then I went to networking to ensure that there were no elastic IPs being published. 
+SSM Session Manager: Now that I know that traffic is being captured I decided to remove SSH entirely. 
+I first launched a session using Systems Manager, then went back to my instance and removed SSH from the inbound rules. Then I went to networking to ensure that there were no elastic IPs being published. 
 
 Things that I learned: 
-1. With this second iteration I aimed to make this verison a bit more polished by adding a threat model and risk register. The threat model works as a short analysis of the system from a broader view point while the risk register takes into account each possible risk that this instance might have. 
+1. With this second iteration I aimed to make this verison a bit more polished by adding a threat model and risk register. 
+The threat model works as a short analysis of the system from a broader view point while the risk register takes into account each possible risk that this instance might have. 
 2. I additionally added a blast raidus analysis as I had a rough Idea in the original project but I hoped to make it more concrete. 
 
 
