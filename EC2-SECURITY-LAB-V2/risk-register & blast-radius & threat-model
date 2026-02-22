@@ -1,0 +1,19 @@
+This file includes a risk register having a clear understanding of what the risks that come with this instance, a threat model to dive deeper into how the threats can be exploited, and finally a blast radius to have an acccurate scope of privilege. 
+
+Risk Register:
+| ID   | Findings                                    | Assets               | Risks                                            | Likelihood | Impact | Severity | Recommendations                                       | Status     |
+| ---- | ------------------------------------------- | -------------------- | ------------------------------------------------ | ---------- | ------ | -------- | ----------------------------------------------------- | ---------- |
+| F-01 | SSH open to internet (`0.0.0.0/0`)          | EC2 / Security Group | Increases attack surface and brute-force risk    | High       | Medium | High     | Restrict SSH to trusted IP or remove SSH and use SSM  | Remediated |
+| F-02 | No SSM role attached to EC2                 | EC2 / IAM Role       | Requires reliance on SSH/key-based access        | Medium     | Medium | Medium   | Attach EC2 role with `AmazonSSMManagedInstanceCore`   | Remediated |
+| F-03 | IAM user has AdministratorAccess            | IAM User             | High blast radius if account is compromised      | High       | High   | Critical | Replace with least-privilege policy and MFA           | Remediated |
+| F-04 | CloudTrail not enabled                      | AWS Account          | Reduced audit visibility and forensic capability | Medium     | High   | High     | Enable multi-region CloudTrail with management events | Remediated |
+
+Threat Model: 
+Initial access: exposed SSH / weak exposure controls
+Privilege risk: overprivileged IAM user compromise
+Visibility gap: no CloudTrail limits investigations
+Storage risk: accidental public S3 exposure
+
+Blast Radius:
+Since the IAM user has AdministratorAccess then they have access to any tools that they would like. 
+For the EC2 instance they can change the security controls to be as accessible as possible. 
