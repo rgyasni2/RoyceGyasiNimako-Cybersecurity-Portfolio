@@ -6,4 +6,8 @@ I then moved onto creating a non root admin user so that I can practice the prin
 
 The next step would be hardening the SSH so first I made a copy so that just incase anything happens I can safely go back. I then blocked direct root logins, disabled password logins over SSH, and finally allowed SSH key logins so that I can login through my Kali VM. 
 
-I then created the key on Kali and sent it thorugh to my Ubuuntu server. 
+I then created the key on Kali and sent it thorugh to my Ubuntu server. 
+
+Next I wanted to check the UFW status and saw that it was off so my next steps were to first turn it on and ensure that it denied incoming traffic and outbound traffic unless I say so. 
+
+I wanted to make sure that I could also get some logging with the firewall so I installed Fail2ban. I created a local jali config (after copying the original) that has SSH protection, blocks you after 3 failed attempts that are counted over 10 minutes, and the ban is for 1 hour. 
