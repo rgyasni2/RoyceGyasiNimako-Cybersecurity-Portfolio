@@ -31,9 +31,6 @@ UFW After:
 
 Jail2ban: 
 
-<img width="739" height="239" alt="image" src="https://github.com/user-attachments/assets/fc2747db-e6c4-4681-9fda-e3a94690699f" />
-<img width="728" height="212" alt="image" src="https://github.com/user-attachments/assets/80f1996c-72c4-4d29-b5e4-baf4408757f0" />
-
 <img width="241" height="89" alt="image" src="https://github.com/user-attachments/assets/bb316516-8f9e-4812-b565-284da3c17dfb" />
 <img width="1283" height="287" alt="image" src="https://github.com/user-attachments/assets/cf89bbb7-d2fa-4242-bb7c-7a97522eb12a" />
 <img width="1297" height="505" alt="image" src="https://github.com/user-attachments/assets/4514e333-5e0e-4fd2-aa14-68151a35c18c" />
