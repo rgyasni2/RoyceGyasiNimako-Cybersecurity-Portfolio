@@ -8,6 +8,6 @@ The next step would be hardening the SSH so first I made a copy so that just inc
 
 I then created the key on Kali and sent it thorugh to my Ubuntu server. 
 
-Next I wanted to check the UFW status and saw that it was off so my next steps were to first turn it on and ensure that it denied incoming traffic and outbound traffic unless I say so. 
+Next I wanted to check the UFW status and saw that it was off so my next steps were to first turn it on and ensure that it denied incoming traffic and outbound traffic unless I say so. Turned of port 80 as well just for fun. 
 
 I wanted to make sure that I could also get some logging with the firewall so I installed Fail2ban. I created a local jali config (after copying the original) that has SSH protection, blocks you after 3 failed attempts that are counted over 10 minutes, and the ban is for 1 hour. 
