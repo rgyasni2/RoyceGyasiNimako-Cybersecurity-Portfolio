@@ -34,6 +34,27 @@ Jail2ban:
 <img width="241" height="89" alt="image" src="https://github.com/user-attachments/assets/bb316516-8f9e-4812-b565-284da3c17dfb" />
 <img width="1297" height="505" alt="image" src="https://github.com/user-attachments/assets/4514e333-5e0e-4fd2-aa14-68151a35c18c" />
 
+Basic nmap scan: 
+
+<img width="531" height="182" alt="image" src="https://github.com/user-attachments/assets/ea879416-69d3-45b9-ab8a-f6940ada7ba9" />
+
+-SV nmap scan:
+
+<img width="626" height="231" alt="image" src="https://github.com/user-attachments/assets/e31ea4a2-c0f1-424b-8463-60efaa55823a" />
+
+Advanced nmap scan:
+
+<img width="655" height="498" alt="image" src="https://github.com/user-attachments/assets/89e03a12-468d-49f3-8f26-87904b8bf7f6" />
+
+Log:
+
+<img width="514" height="168" alt="image" src="https://github.com/user-attachments/assets/3fa2295c-24de-424c-83d4-d4d16090d052" />
+
+<img width="1285" height="130" alt="image" src="https://github.com/user-attachments/assets/bd34d024-7d76-4ac1-ad8e-35ef7e69f0e0" />
+
+
+
+
 
 
 
