@@ -1,1 +1,7 @@
+Overview: 
+This is a continuation of the first Security Engineer Homelab. After going through the steps of hardening my first Ubuntu server I wanted this project to be a step above. 
+For my previous project (Intro Web Pentesting Lab), I went through the steps of a beginner red team web tester and for this project I want to be able to defend against those type of attacks. 
+For this project, my goal is to have an ubuntu server and set up detection for brute force attempts, privilege escalation attempts, unauthorized creation attempts, etc. 
+Once these detections are in place I want to send all logs and alerts into another VM that has Wazuh to have a visulazation of all the information.  
+Finally, after creating the detection for these attempts, I want to test that the rules are working in place by attacking using my Kali VM and documenting the process. 
 
