@@ -1,0 +1,5 @@
+This a freestyle purple team project. The main goal of this project is to add as many defenses that I can and then attacking to see these defenses in place as well as seeing if I can break in anywayy.
+Previously, with my defenses I covered the simple stuff such as ssh and setting up a fail2ban but this project I am going to do as much research as possible to defend against almost everything. 
+Once my defense is done, I will be doing the same to figure out how to break down all the defenses or to at least see the defenses in place.
+
+I am going to start with my ubutnu serer and I started by searching up basic defense postures for ubuntu servers.
