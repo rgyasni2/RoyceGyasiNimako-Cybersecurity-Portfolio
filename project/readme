@@ -4,7 +4,7 @@ Once my defense is done, I will be doing the same to figure out how to break dow
 
 ##DEFENSE:
 
-  I am going to start by defending my ubutnu server with the methods that I previously learned: default configuration for the UFW firewall (deny incoming, allow outcoming).
-  I was going to turn off SSH entirely but that would not be realistic so I decided to learn how to rate limit ssh connections. I decided to allow 443 
+  I am going to start by defending my ubutnu server with the methods that I previously learned: default configuration for the UFW firewall (deny incoming, allow outcoming). 
+  I was going to turn off SSH entirely but that would not be realistic so I decided to learn how to rate limit ssh connections. I decided to allow 443 .
   I next learned that I can change the SSH to only allow connections from my IP so I did that. I then decided to harden the ssh rules entirely which you can find in the screenshots tab.
   
