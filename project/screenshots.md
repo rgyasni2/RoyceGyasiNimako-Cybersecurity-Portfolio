@@ -1,2 +1,2 @@
 SSH Hardening:
-<img width="231" height="187" alt="image" src="https://github.com/user-attachments/assets/ea6f849c-81da-4e2c-8022-a883673d7bad" />
+<img width="222" height="152" alt="image" src="https://github.com/user-attachments/assets/392bf64d-48be-4123-8e0f-2d938aafbb18" />
