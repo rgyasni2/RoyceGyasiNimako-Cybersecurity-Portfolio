@@ -9,7 +9,7 @@ I hope to eventually be a Malware Analyst and develop my skills further.
 | Project | Description |
 |---|---|
 | [EC2-SECURITY-LAB-V2](./EC2-SECURITY-LAB-V2) | AWS EC2 hardening — security groups, IAM, SSH lockdown |
-| [Malware Analysis](./Malware/Analysis) | Static/dynamic analysis of malware samples, incl. sample-01 |
+| [Malware Analysis](./Malware%20/Analysis) | Static/dynamic analysis of malware samples, incl. sample-01 |
 | [Security Engineer Homelab](./SECURITY-ENGINEER-HOMELAB) | Home lab environment for hands-on security practice |
 | [Intro Web Pentesting Lab](./Intro%20Web%20Pentesting%20Lab) | Web application penetration testing exercises |
 | [CTF Homelab](./ctf-homelab-project) | Capture-the-flag challenges and writeups |
